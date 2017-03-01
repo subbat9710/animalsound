@@ -1,8 +1,8 @@
-class Cat
+class Fox
 	attr_reader :name, :sound
 def initialize(name)
 	@name=name
-	@sound="meow"
+	@sound="konkon"
 end
 def get_info
 	name + " says " + sound
