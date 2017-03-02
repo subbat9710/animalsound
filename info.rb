@@ -12,6 +12,4 @@ require_relative "fox.rb"
 end
 p three_animals
 
- #animal_one.get_info + "\n" +
- #animal_two.get_info + "\n"  +
- #animal_three.get_info + "\n"
+ # puts animal_one.get_info + "\n" + animal_two.get_info + "\n"  +animal_three.get_info 

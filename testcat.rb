@@ -15,17 +15,17 @@ class TestAnimalSounds < Minitest::Test
     end
     def test_for_dog
     	animal = Dog.new("Rover")
-    	assert_equal("woof",animal.sound)
+    	assert_equal("Rover",animal.name)
     end
     def test_for_dog_sound
     	animal = Dog.new("Spike")
     	assert_equal("woof",animal.sound)
     end
     def test_for_fox
-    	animal = Fox.new("Tabby")
-    	assert_equal("Tabby",animal.sound)
+    	animal = Fox.new("Paws")
+    	assert_equal("Paws",animal.name)
     end
-    def test_for_fox
+    def test_for_fox_sound
     	animal = Fox.new("Boots")
     	assert_equal("konkon",animal.sound)
     end
